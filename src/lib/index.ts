@@ -1,3 +1,3 @@
 // Utility functions and configurations
-// Example: export { cn } from './utils';
-// Example: export { supabase } from './supabase';
+export { cn } from './utils'
+export { default as supabase } from './supabase'
