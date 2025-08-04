@@ -1,0 +1,15 @@
+---
+alwaysApply: false
+---
+
+## Step 1 (optional) - Bypass if the user states the exact name of a component
+
+Step 1 (optional) is to use the list_components tool to list all of the shad-cn components and decide which is best to use UNLESS the user has specified the exact name of a component.
+
+## Step 2
+
+Use the get_component tool to get the source code of the coponent required.
+
+## Step 3
+
+Use the get_component_demo tool, for the same component chosen in Step 2 to understand how to correctly implement the componant into the code
