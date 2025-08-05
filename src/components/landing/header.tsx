@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -40,10 +41,9 @@ export function Header() {
 
           <div className="flex items-center gap-4">
             <DarkModeToggle />
-            <Button variant="ghost" size="sm" className="hidden sm:inline-flex">
-              Sign In
-            </Button>
-            <Button size="sm">Get Started</Button>
+            <Link href="/login">
+              <Button size="sm">Developer Start</Button>
+            </Link>
           </div>
         </div>
       </div>
